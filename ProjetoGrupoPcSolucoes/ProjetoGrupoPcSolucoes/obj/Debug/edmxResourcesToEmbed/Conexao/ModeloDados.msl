@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CadastroModelStoreContainer" CdmEntityContainer="cadastroEntities">
+    <EntitySetMapping Name="cliente">
+      <EntityTypeMapping TypeName="CadastroModel.cliente">
+        <MappingFragment StoreEntitySet="cliente">
+          <ScalarProperty Name="CodCliente" ColumnName="CodCliente" />
+          <ScalarProperty Name="NomFantasia" ColumnName="NomFantasia" />
+          <ScalarProperty Name="RazaoSocial" ColumnName="RazaoSocial" />
+          <ScalarProperty Name="TipInscricao" ColumnName="TipInscricao" />
+          <ScalarProperty Name="Cpf" ColumnName="Cpf" />
+          <ScalarProperty Name="Cnpj" ColumnName="Cnpj" />
+          <ScalarProperty Name="DtNacimento" ColumnName="DtNacimento" />
+          <ScalarProperty Name="DtAtividade" ColumnName="DtAtividade" />
+          <ScalarProperty Name="Endereço" ColumnName="Endereço" />
+          <ScalarProperty Name="Numero" ColumnName="Numero" />
+          <ScalarProperty Name="Cep" ColumnName="Cep" />
+          <ScalarProperty Name="Fone" ColumnName="Fone" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
